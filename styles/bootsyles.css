@@ -1,0 +1,114 @@
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 450px;
+    background-image: url(../images/BackgroundWebsite);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(238, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: bold; 
+}
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    
+}
+h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: normal;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5 {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-align {
+    text-align: left;
+}
+.right-align {
+    text-align: right;
+}
+.headerText {
+    padding: 45px
+}
+.body {
+    top: 350px;
+    bottom: 105px;
+    left:0px;
+    right:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height:105px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+    background-color: gray; 
+}
+.copyright {
+    font-size: 14px;
+    font-style: italic;
+    background-color: gray;
+}
+.bold {
+    font-style: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.floatRight {
+    float: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 10%;
+    padding: 10px;
+}
+.backToTop {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.tableauLink {
+    color: black;
+}
+

@@ -1,0 +1,50 @@
+
+.cursive {
+    font-family: cursive
+}
+.resumelistHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.bold {font-weight: bold;}
+.normal {font-weight: normal}
+.nospace {
+    margin-bottom: 0px
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row-2::after {
+    content: "";
+    clear:both;
+    display: table;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10%;
+}
+.margin
+{margin: 10px;}
+
+.gray {color: lightslategray;}
+
+.font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+    
